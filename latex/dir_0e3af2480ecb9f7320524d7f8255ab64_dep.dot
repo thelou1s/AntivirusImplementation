@@ -1,0 +1,10 @@
+digraph "D:/work/projects" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0e3af2480ecb9f7320524d7f8255ab64 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_0e3af2480ecb9f7320524d7f8255ab64.html"];
+    dir_0e3af2480ecb9f7320524d7f8255ab64 [shape=plaintext label="projects"];
+    dir_e281c14d25e3595bb0175db229e52937 [shape=box label="POC" color="red" fillcolor="white" style="filled" URL="dir_e281c14d25e3595bb0175db229e52937.html"];
+  }
+}

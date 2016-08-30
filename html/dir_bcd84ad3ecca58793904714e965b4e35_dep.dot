@@ -1,0 +1,13 @@
+digraph "D:/work/projects/POC/AntivirusImplementation/app/src/main" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ce100026a3d7ebe2e7236c15cbcc2aec {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_ce100026a3d7ebe2e7236c15cbcc2aec.html"]
+  subgraph clusterdir_bcd84ad3ecca58793904714e965b4e35 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_bcd84ad3ecca58793904714e965b4e35.html"];
+    dir_bcd84ad3ecca58793904714e965b4e35 [shape=plaintext label="main"];
+    dir_aaa26425ad937f812d6e47f95ce30d8d [shape=box label="java" color="red" fillcolor="white" style="filled" URL="dir_aaa26425ad937f812d6e47f95ce30d8d.html"];
+  }
+  }
+}

@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.avira.antivirusimplementation"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+
+        ndk {
+            moduleName "antivirus"
+            abiFilter "armeabi-v7a"
+            ldLibs "log"
+            stl "gnustl_static"
+            cFlags "-DANDROID_NDK_HOME -D_DEBUG"
+        }
+    }
+
+    signingConfigs{
+        unsigned{
+            storePassword = ""
+            keyAlias = ""
+            keyPassword = ""
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.unsigned
+            //minifyEnabled false
+            //proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'de.greenrobot:eventbus:2.4.0'
+}

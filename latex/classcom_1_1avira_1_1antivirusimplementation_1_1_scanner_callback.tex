@@ -1,0 +1,64 @@
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback}{}\section{com.\+avira.\+antivirusimplementation.\+Scanner\+Callback Class Reference}
+\label{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback}\index{com.\+avira.\+antivirusimplementation.\+Scanner\+Callback@{com.\+avira.\+antivirusimplementation.\+Scanner\+Callback}}
+
+
+Inheritance diagram for com.\+avira.\+antivirusimplementation.\+Scanner\+Callback\+:
+% FIG 0
+
+
+Collaboration diagram for com.\+avira.\+antivirusimplementation.\+Scanner\+Callback\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback_af3940315c7e37a35c9762583f1150d7b}{}{\bfseries Scanner\+Callback} (String name, String path, int level, int type)\label{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback_af3940315c7e37a35c9762583f1150d7b}
+
+\item 
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback_ad52d3079f3d4931ede1aa04ae32f36d3}{}\hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_scanned_file_info}{Scanned\+File\+Info} {\bfseries get\+File\+Info} ()\label{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback_ad52d3079f3d4931ede1aa04ae32f36d3}
+
+\item 
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback_abd6247198926f356d666a7f304b2f393}{}void {\bfseries add\+Malware\+Info} (String filename, String filepath, int file\+Level, int file\+Type, String malware\+Name, String app\+Flags, String message, String type)\label{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback_abd6247198926f356d666a7f304b2f393}
+
+\item 
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback_a9926813c0e712ef07c905e356aa37310}{}Hash\+Map$<$ String, \hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_scanned_file_info}{Scanned\+File\+Info} $>$ {\bfseries get\+Infected\+File\+Info\+List} ()\label{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback_a9926813c0e712ef07c905e356aa37310}
+
+\item 
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback_a9937c7a5bbd98026c4604930e8f9ca75}{}String {\bfseries get\+Time\+Stamp} ()\label{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback_a9937c7a5bbd98026c4604930e8f9ca75}
+
+\item 
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback_a266813c9b1a2d6bf45a418b41387cfa4}{}int {\bfseries describe\+Contents} ()\label{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback_a266813c9b1a2d6bf45a418b41387cfa4}
+
+\item 
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback_a87749584e5ed3b8330f145e2811a6f0c}{}void {\bfseries write\+To\+Parcel} (Parcel dest, int flags)\label{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback_a87749584e5ed3b8330f145e2811a6f0c}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Parcelable.\+Creator$<$ \hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback}{Scanner\+Callback} $>$ {\bfseries C\+R\+E\+A\+T\+O\+R}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback_a9f046ad94c368de38a9b30c0f6d4211e}{}\index{com\+::avira\+::antivirusimplementation\+::\+Scanner\+Callback@{com\+::avira\+::antivirusimplementation\+::\+Scanner\+Callback}!C\+R\+E\+A\+T\+O\+R@{C\+R\+E\+A\+T\+O\+R}}
+\index{C\+R\+E\+A\+T\+O\+R@{C\+R\+E\+A\+T\+O\+R}!com\+::avira\+::antivirusimplementation\+::\+Scanner\+Callback@{com\+::avira\+::antivirusimplementation\+::\+Scanner\+Callback}}
+\subsubsection[{C\+R\+E\+A\+T\+O\+R}]{\setlength{\rightskip}{0pt plus 5cm}final Parcelable.\+Creator$<${\bf Scanner\+Callback}$>$ com.\+avira.\+antivirusimplementation.\+Scanner\+Callback.\+C\+R\+E\+A\+T\+O\+R\hspace{0.3cm}{\ttfamily [static]}}\label{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback_a9f046ad94c368de38a9b30c0f6d4211e}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \textcolor{keyword}{new} Parcelable.Creator<ScannerCallback>() \{
+        @Override
+        \textcolor{keyword}{public} ScannerCallback createFromParcel(Parcel in) \{
+            \textcolor{keywordflow}{return} \textcolor{keyword}{new} ScannerCallback(in);
+        \}
+
+        @Override
+        \textcolor{keyword}{public} ScannerCallback[] newArray(\textcolor{keywordtype}{int} size) \{
+            \textcolor{keywordflow}{return} \textcolor{keyword}{new} ScannerCallback[size];
+        \}
+    \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/work/projects/\+P\+O\+C/\+Antivirus\+Implementation/app/src/main/java/com/avira/antivirusimplementation/Scanner\+Callback.\+java\end{DoxyCompactItemize}

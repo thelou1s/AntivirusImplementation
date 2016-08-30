@@ -1,0 +1,60 @@
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_utils}{}\section{com.\+avira.\+antivirusimplementation.\+Antivirus\+Utils Class Reference}
+\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_utils}\index{com.\+avira.\+antivirusimplementation.\+Antivirus\+Utils@{com.\+avira.\+antivirusimplementation.\+Antivirus\+Utils}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_utils_ae3b141ff8bbafed459520fb80b3aa82d}{setup\+Antivirus} (Context context)
+\item 
+static void \hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_utils_a7ea66a194e43464830cedc2cedc3d40a}{set\+Engine\+Paths} (Context context)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_utils_a029724ce0cc7a6ddff2c697acdd0b1df}{}static final String {\bfseries L\+I\+B\+R\+A\+R\+Y\+\_\+\+F\+I\+L\+E\+N\+A\+M\+E} = \char`\"{}libantivirus.\+so\char`\"{}\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_utils_a029724ce0cc7a6ddff2c697acdd0b1df}
+
+\item 
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_utils_af19356c61cf635aa9e97d3b192ee0fbf}{}static final String {\bfseries L\+I\+B\+R\+A\+R\+Y\+\_\+\+N\+A\+M\+E} = \char`\"{}antivirus\char`\"{}\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_utils_af19356c61cf635aa9e97d3b192ee0fbf}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+ovidiu.\+buleandra
+\end{DoxyAuthor}
+some utility methods to deal with first time setup of the application
+
+main purpose is to copy the scanning engine stuff from the assets folder in the app package to some folders created on the device at the path of installation 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_utils_a7ea66a194e43464830cedc2cedc3d40a}{}\index{com\+::avira\+::antivirusimplementation\+::\+Antivirus\+Utils@{com\+::avira\+::antivirusimplementation\+::\+Antivirus\+Utils}!set\+Engine\+Paths@{set\+Engine\+Paths}}
+\index{set\+Engine\+Paths@{set\+Engine\+Paths}!com\+::avira\+::antivirusimplementation\+::\+Antivirus\+Utils@{com\+::avira\+::antivirusimplementation\+::\+Antivirus\+Utils}}
+\subsubsection[{set\+Engine\+Paths}]{\setlength{\rightskip}{0pt plus 5cm}static void com.\+avira.\+antivirusimplementation.\+Antivirus\+Utils.\+set\+Engine\+Paths (
+\begin{DoxyParamCaption}
+\item[{Context}]{context}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_utils_a7ea66a194e43464830cedc2cedc3d40a}
+tell to the native side where we copied the files to make sure that the libraries and virus definitions database is loaded correctly
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_utils_ae3b141ff8bbafed459520fb80b3aa82d}{}\index{com\+::avira\+::antivirusimplementation\+::\+Antivirus\+Utils@{com\+::avira\+::antivirusimplementation\+::\+Antivirus\+Utils}!setup\+Antivirus@{setup\+Antivirus}}
+\index{setup\+Antivirus@{setup\+Antivirus}!com\+::avira\+::antivirusimplementation\+::\+Antivirus\+Utils@{com\+::avira\+::antivirusimplementation\+::\+Antivirus\+Utils}}
+\subsubsection[{setup\+Antivirus}]{\setlength{\rightskip}{0pt plus 5cm}static void com.\+avira.\+antivirusimplementation.\+Antivirus\+Utils.\+setup\+Antivirus (
+\begin{DoxyParamCaption}
+\item[{Context}]{context}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_utils_ae3b141ff8bbafed459520fb80b3aa82d}
+copies libraries from the assets folder to the main application folder 
+\begin{DoxyParams}{Parameters}
+{\em context} & application context to get the current installation path of the application (internal memory of the device) \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/work/projects/\+P\+O\+C/\+Antivirus\+Implementation/app/src/main/java/com/avira/antivirusimplementation/Antivirus\+Utils.\+java\end{DoxyCompactItemize}

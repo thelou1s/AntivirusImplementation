@@ -1,0 +1,124 @@
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus}{}\section{com.\+avira.\+antivirusimplementation.\+Antivirus Class Reference}
+\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus}\index{com.\+avira.\+antivirusimplementation.\+Antivirus@{com.\+avira.\+antivirusimplementation.\+Antivirus}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_a01065f9ba50e068c7741f15fbb622e8b}{Antivirus} ()
+\item 
+String \hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_a5c9dfcff4513f30c3e252e1c280bd2ea}{get\+V\+D\+F\+Version} ()
+\item 
+String \hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_abbe374ed44caa0a2bbc33accd6bfd612}{get\+Engine\+Version} ()
+\item 
+void \hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_aa462dddafab4128e14e175f37ef9a217}{scan\+Application} (final Handler callback, final String package\+Source\+Dir)
+\item 
+synchronized void \hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_a34018fa89db3ada6e3156c2d1ed4e2ab}{on\+Scan\+Callback} (int callback\+State, String path, \hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback}{Scanner\+Callback} callback\+Data)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static synchronized \hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus}{Antivirus} \hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_ac4856ca2a124af9b42865b88f43250c0}{get\+Instance} ()
+\item 
+static void \hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_a3542316916ff74da0937558a1b3aa85b}{set\+Engine\+Components} (String engine\+Path, String library\+Path, String temp\+Path, String update\+Path)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_afb5b02cd80b91515905739e16d261c26}{}static final String {\bfseries E\+X\+T\+R\+A\+\_\+\+S\+C\+A\+N\+\_\+\+R\+E\+S\+U\+L\+T} = \char`\"{}extra\+\_\+scan\+\_\+result\char`\"{}\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_afb5b02cd80b91515905739e16d261c26}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_a1e81ca54b1eabb5cc5f8b695da05b54c}{}void {\bfseries finalize} ()  throws Throwable \label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_a1e81ca54b1eabb5cc5f8b695da05b54c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+ovidiu.\+buleandra
+\end{DoxyAuthor}
+singleton \hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus}{Antivirus} object that is used to communicate with the native part through the J\+N\+I bridge 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_a01065f9ba50e068c7741f15fbb622e8b}{}\index{com\+::avira\+::antivirusimplementation\+::\+Antivirus@{com\+::avira\+::antivirusimplementation\+::\+Antivirus}!Antivirus@{Antivirus}}
+\index{Antivirus@{Antivirus}!com\+::avira\+::antivirusimplementation\+::\+Antivirus@{com\+::avira\+::antivirusimplementation\+::\+Antivirus}}
+\subsubsection[{Antivirus}]{\setlength{\rightskip}{0pt plus 5cm}com.\+avira.\+antivirusimplementation.\+Antivirus.\+Antivirus (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_a01065f9ba50e068c7741f15fbb622e8b}
+\hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus}{Antivirus} class that is the glue between java code and J\+N\+I code 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_abbe374ed44caa0a2bbc33accd6bfd612}{}\index{com\+::avira\+::antivirusimplementation\+::\+Antivirus@{com\+::avira\+::antivirusimplementation\+::\+Antivirus}!get\+Engine\+Version@{get\+Engine\+Version}}
+\index{get\+Engine\+Version@{get\+Engine\+Version}!com\+::avira\+::antivirusimplementation\+::\+Antivirus@{com\+::avira\+::antivirusimplementation\+::\+Antivirus}}
+\subsubsection[{get\+Engine\+Version}]{\setlength{\rightskip}{0pt plus 5cm}String com.\+avira.\+antivirusimplementation.\+Antivirus.\+get\+Engine\+Version (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_abbe374ed44caa0a2bbc33accd6bfd612}
+gets the scanning engine version \begin{DoxyReturn}{Returns}
+version number 
+\end{DoxyReturn}
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_ac4856ca2a124af9b42865b88f43250c0}{}\index{com\+::avira\+::antivirusimplementation\+::\+Antivirus@{com\+::avira\+::antivirusimplementation\+::\+Antivirus}!get\+Instance@{get\+Instance}}
+\index{get\+Instance@{get\+Instance}!com\+::avira\+::antivirusimplementation\+::\+Antivirus@{com\+::avira\+::antivirusimplementation\+::\+Antivirus}}
+\subsubsection[{get\+Instance}]{\setlength{\rightskip}{0pt plus 5cm}static synchronized {\bf Antivirus} com.\+avira.\+antivirusimplementation.\+Antivirus.\+get\+Instance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_ac4856ca2a124af9b42865b88f43250c0}
+singleton instance retrieval \begin{DoxyReturn}{Returns}
+\hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus}{Antivirus} instance 
+\end{DoxyReturn}
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_a5c9dfcff4513f30c3e252e1c280bd2ea}{}\index{com\+::avira\+::antivirusimplementation\+::\+Antivirus@{com\+::avira\+::antivirusimplementation\+::\+Antivirus}!get\+V\+D\+F\+Version@{get\+V\+D\+F\+Version}}
+\index{get\+V\+D\+F\+Version@{get\+V\+D\+F\+Version}!com\+::avira\+::antivirusimplementation\+::\+Antivirus@{com\+::avira\+::antivirusimplementation\+::\+Antivirus}}
+\subsubsection[{get\+V\+D\+F\+Version}]{\setlength{\rightskip}{0pt plus 5cm}String com.\+avira.\+antivirusimplementation.\+Antivirus.\+get\+V\+D\+F\+Version (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_a5c9dfcff4513f30c3e252e1c280bd2ea}
+gets the virus definitions file version \begin{DoxyReturn}{Returns}
+the date of the definitions 
+\end{DoxyReturn}
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_a34018fa89db3ada6e3156c2d1ed4e2ab}{}\index{com\+::avira\+::antivirusimplementation\+::\+Antivirus@{com\+::avira\+::antivirusimplementation\+::\+Antivirus}!on\+Scan\+Callback@{on\+Scan\+Callback}}
+\index{on\+Scan\+Callback@{on\+Scan\+Callback}!com\+::avira\+::antivirusimplementation\+::\+Antivirus@{com\+::avira\+::antivirusimplementation\+::\+Antivirus}}
+\subsubsection[{on\+Scan\+Callback}]{\setlength{\rightskip}{0pt plus 5cm}synchronized void com.\+avira.\+antivirusimplementation.\+Antivirus.\+on\+Scan\+Callback (
+\begin{DoxyParamCaption}
+\item[{int}]{callback\+State, }
+\item[{String}]{path, }
+\item[{{\bf Scanner\+Callback}}]{callback\+Data}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_a34018fa89db3ada6e3156c2d1ed4e2ab}
+called from J\+N\+I -\/ do not remove
+
+method is registered in the J\+N\+I glue code and is called when the scan of a file is finished with the result set in \hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_scanner_callback}{Scanner\+Callback} \hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_aa462dddafab4128e14e175f37ef9a217}{}\index{com\+::avira\+::antivirusimplementation\+::\+Antivirus@{com\+::avira\+::antivirusimplementation\+::\+Antivirus}!scan\+Application@{scan\+Application}}
+\index{scan\+Application@{scan\+Application}!com\+::avira\+::antivirusimplementation\+::\+Antivirus@{com\+::avira\+::antivirusimplementation\+::\+Antivirus}}
+\subsubsection[{scan\+Application}]{\setlength{\rightskip}{0pt plus 5cm}void com.\+avira.\+antivirusimplementation.\+Antivirus.\+scan\+Application (
+\begin{DoxyParamCaption}
+\item[{final Handler}]{callback, }
+\item[{final String}]{package\+Source\+Dir}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_aa462dddafab4128e14e175f37ef9a217}
+posts a scanning request to the native side and registers a callback to the U\+I thread to post the result to 
+\begin{DoxyParams}{Parameters}
+{\em callback} & to be used to receive the result of the scan on the U\+I side \\
+\hline
+{\em package\+Source\+Dir} & path on the device to the apk of the target application \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_a3542316916ff74da0937558a1b3aa85b}{}\index{com\+::avira\+::antivirusimplementation\+::\+Antivirus@{com\+::avira\+::antivirusimplementation\+::\+Antivirus}!set\+Engine\+Components@{set\+Engine\+Components}}
+\index{set\+Engine\+Components@{set\+Engine\+Components}!com\+::avira\+::antivirusimplementation\+::\+Antivirus@{com\+::avira\+::antivirusimplementation\+::\+Antivirus}}
+\subsubsection[{set\+Engine\+Components}]{\setlength{\rightskip}{0pt plus 5cm}static void com.\+avira.\+antivirusimplementation.\+Antivirus.\+set\+Engine\+Components (
+\begin{DoxyParamCaption}
+\item[{String}]{engine\+Path, }
+\item[{String}]{library\+Path, }
+\item[{String}]{temp\+Path, }
+\item[{String}]{update\+Path}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_a3542316916ff74da0937558a1b3aa85b}
+tell to the native side where are the components of the scanning engine installed on the current device 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/work/projects/\+P\+O\+C/\+Antivirus\+Implementation/app/src/main/java/com/avira/antivirusimplementation/Antivirus.\+java\end{DoxyCompactItemize}

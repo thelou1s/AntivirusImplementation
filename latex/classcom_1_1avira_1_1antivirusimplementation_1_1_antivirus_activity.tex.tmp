@@ -1,0 +1,43 @@
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_activity}{}\section{com.\+avira.\+antivirusimplementation.\+Antivirus\+Activity Class Reference}
+\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_activity}\index{com.\+avira.\+antivirusimplementation.\+Antivirus\+Activity@{com.\+avira.\+antivirusimplementation.\+Antivirus\+Activity}}
+
+
+Inheritance diagram for com.\+avira.\+antivirusimplementation.\+Antivirus\+Activity\+:
+% FIG 0
+
+
+Collaboration diagram for com.\+avira.\+antivirusimplementation.\+Antivirus\+Activity\+:
+% FIG 1
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Load\+Applications\+Task}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_activity_a672dea91b4011c14264cfd03fe483c20}{}void {\bfseries on\+Click} (View v)\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_activity_a672dea91b4011c14264cfd03fe483c20}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_activity_a816743b40655ab31ad38707225dcf6a8}{}void {\bfseries on\+Create} (Bundle saved\+Instance\+State)\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_activity_a816743b40655ab31ad38707225dcf6a8}
+
+\item 
+\hypertarget{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_activity_ab6fae08b2c5d835c2621a4130a53ee90}{}void {\bfseries on\+Resume} ()\label{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus_activity_ab6fae08b2c5d835c2621a4130a53ee90}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+ovidiu.\+buleandra
+\end{DoxyAuthor}
+main activity presented to the user uses an antivirus object to scan an application that the user chooses from the list of installed non-\/system apps
+
+for the purpose of testing install E\+I\+C\+A\+R \hyperlink{classcom_1_1avira_1_1antivirusimplementation_1_1_antivirus}{Antivirus} test from the playstore (harmless app that holds a test virus signature) 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/work/projects/\+P\+O\+C/\+Antivirus\+Implementation/app/src/main/java/com/avira/antivirusimplementation/Antivirus\+Activity.\+java\end{DoxyCompactItemize}
